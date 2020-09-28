@@ -1,5 +1,8 @@
 const incrementQty = (qty) => parseInt(qty) + 1;
-const decrementQty = (qty) => parseInt(qty) - 1;
+const decrementQty = (qty) => {
+    if (qty > 1) return qty - 1;
+        return qty;
+};
 
 function num(id, value) {
     if (isNaN(value) || value < 0) {

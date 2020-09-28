@@ -9,7 +9,7 @@
   <img />
   <h2>Title</h2>
   <span>Rp. <input type="text" name="price" id="price" value="50000" onkeypress="return hanyaAngka(event)"/></span>
-  <button id="incr">+</button><input type="text" value="1" name="qty" id="qty" /><button id="decr">-</button>
+  <button id="incr">+</button><input type="text" value="1" name="qty" id="qty" onkeypress="return hanyaAngka(event)"/><button id="decr">-</button>
   <input type="text" placeholder="Kode Promo" name="code" id="code" /><button id="confirmButton">OK</button>
   <hr />
   <h4>Subtotal <span id="subtotal">Rp. 50000</span></h4><button id="bayarButton">Bayar</button>

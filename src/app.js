@@ -25,6 +25,7 @@ decrButton.addEventListener('click', () => {
     qtyInput.value = decrementQty(qtyInput.value);
     subtotal();
   } else {
+    qtyInput.value = 1;
     alert("Kuantitas minimal 1");
   }
   total();
